@@ -335,6 +335,8 @@ $removeparam=union_lens,domain=tmall.com|taobao.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108860
 ||github.com/signup$removeparam=source
 ||github.com/signup$removeparam=/^ref_/
+! Guardian
+||guardian.com^$removeparam=CMP
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2052109
 ||tradingview.com^$removeparam=source
 ! https://github.com/AdguardTeam/AdguardFilters/issues/107988
